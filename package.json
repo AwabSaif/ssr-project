@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve --ssl -o",
     "build": "ng build",
+    "build-dev": "ng build --base-href /test/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:ssr-project": "node dist/ssr-project/server/server.mjs"
